@@ -1,9 +1,5 @@
 <template>
   <div class="overflow-hidden">
-    <!-- <hamburger-button
-      class="fixed z-30 lg:top-[40px] md:top-[20px] top-[20px] lg:right-[55px] md:right-[30px] right-[20px]"
-    ></hamburger-button> -->
-
     <!-- Navbar -->
     <navbar class="z-50"></navbar>
 
@@ -23,18 +19,9 @@
 <script>
 export default {
   data() {
-    return {
-      // hamburgerActive: false,
-    };
+    return {};
   },
-  methods: {
-    // handleToggleHamburger() {
-    //   this.hamburgerActive = !this.hamburgerActive;
-    // },
-    // hiddenMenu() {
-    //   this.hamburgerActive = false;
-    // },
-  },
+  methods: {},
 };
 </script>
 

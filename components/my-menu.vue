@@ -230,8 +230,8 @@ export default {
       this.meetOurTeam = false;
       this.works = false;
       this.contact = false;
-      // Set menu parameter to true => (this.menu = true)
 
+      // Set menu parameter to true => (this.menu = true)
       this[menu] = true;
     },
 

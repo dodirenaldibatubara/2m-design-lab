@@ -27,10 +27,7 @@ export default {
 
   methods: {
     toggleHamburger() {
-      // this.hamburgerActive = !this.hamburgerActive;
       this.$store.commit("setActiveMenu");
-
-      // this.$emit("handleToggleHamburger");
     },
   },
 };
