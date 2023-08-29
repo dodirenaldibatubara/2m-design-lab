@@ -7,7 +7,7 @@
     <!-- Navbar -->
     <navbar class="z-50"></navbar>
 
-    <!-- End Navbar -->
+    <!-- End Navbar. -->
 
     <my-menu
       :class="{ slideMenu: this.$store.state.activeMenu }"
